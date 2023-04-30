@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge - G5</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="contenido">
+
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="ingresar-texto">
+            <textarea id="input1"  rows="4"  placeholder="Ingrese el texto aquí"></textarea>
+            <!-- <input id="input1" type="text" name="text" placeholder="Ingrese el texto aquí" /> -->
+        </div>
+        <div class="four">
+            
+        </div>
+        <section class="button">
+            <p> <span><img src="img/vector.png" alt=""></span> Solo letras minúsculas y sin acentos</p>
+            <input type="submit" value="Encriptar" class="encriptar" id="encriptar" />
+            <input type="submit" value="Desencriptar" class="desencriptar" id="desencriptar" />
+        </section>
+
+        <section class="muneco">
+            <!-- <p id="valueInput"></p>  -->
+            <section class="texto-resultado" id="texto-resultado" style="display: none;">
+                <div class="box-result">
+
+                    <label id="valueInput" name="textarea"></label>
+                </div>
+                <!-- <textarea name="textarea" id="valueInput" cols="40%" rows="30%"></textarea> -->
+                <button class="resultado-button" id="resultado-button">copiar</button>
+            </section>
+            <section id="image-resultado">
+
+                <img src="img/muneco.png" alt="">
+                <p class="resultado"> <Strong>Ningún mensaje fue encontrado</Strong> </p>
+                <p class="textoAviso">Ingrese el texto que desees encriptar o desencriptar</p> 
+                <!-- <textarea name="textarea" id="valueInput" cols="40%" rows="30%"></textarea> -->
+                <!-- <input type="button" value="Copiar" class="resultado-button" name="copiar" > --> 
+            </section>
+        </section>
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
